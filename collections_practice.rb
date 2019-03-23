@@ -44,6 +44,7 @@ end
 
 def find_cool(arr)
   arr.each { |hsh|
+  binding.pry
     hsh.each { |k, v|
       if k == :cool && v == "cool"
         hsh
