@@ -43,7 +43,7 @@ def merge_data(set1, set2)
 end
 
 def find_cool(arr)
-  
+  binding.pry
 end
 
 
