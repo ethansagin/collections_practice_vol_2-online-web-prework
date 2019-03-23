@@ -43,7 +43,13 @@ def merge_data(set1, set2)
 end
 
 def find_cool(arr)
-
+  arr.each { |hsh|
+    hsh.each { |k, v|
+      if k == :cool && v == "cool"
+        hsh
+      end
+    }
+  }
 end
 
 
