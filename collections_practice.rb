@@ -42,7 +42,7 @@ def merge_data(set1, set2)
   merged_arr
 end
 
-def find_cool
+def find_cool(arr)
   
 end
 
